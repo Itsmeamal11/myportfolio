@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:  #E5E5E5;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #101820;
+    color: #FCA311;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color:  #FEE715;
+    margin-bottom: 10px;
+}
+header p{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+   
+}
+
+nav a {
+    margin: 0 1rem;
+    color:white;
+    text-decoration: none;
+}
+section {
+    background:white;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    color:black;
+}
+h3{
+    color: black;
+    margin-bottom: 20px;
+}
+a, button {
+    background-color: #101820;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+a:hover, button:hover {
+    background-color: #FEE715;
+    color: #101820;
+   
+}
+h1, h2 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 2rem;
+    width: 1000px;
+    height: auto;
+    padding: 15px; 
+    margin: 20px auto;
+    border: 1px solid #ccc; 
+    border-radius: 80px;
+    
+   
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 80px;
+    
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    
+    
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    height: 150px;
+    width: 250px;
+}
+/* skillsection */
+#skills {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 80px;
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.skill {
+    margin-bottom: 15px;
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #007bff;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 80px;
+    max-width: 400px; /* Adjust width as needed */
+    text-align: center;
+}
+    
+.contact-item {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+   
+    
+}
+
+.contact-item i {
+    margin-right: 10px; /* Space between icon and text */
+    color:black;
+}
+.contact-item a{
+    background-color: white;
+    color: black;
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #E5E5E5;
+    background-color:#101820;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
